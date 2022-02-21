@@ -1,6 +1,8 @@
 
 # React Portfolio
 
+
+![portfolio](./src/components/About/react-port.png)
 ## Table of contents
 * [Portfolio Link](https://chiarans.github.io/react-portfolio/)
 * [General info](#general-info)
