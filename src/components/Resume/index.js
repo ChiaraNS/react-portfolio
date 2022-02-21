@@ -6,7 +6,7 @@ function Resume() {
         <section>
             <div className='resume'>
                 <h2>Resume</h2>
-                <a href='./resume.pdf' download>PDF</a>
+                <a href='./resume.pdf' download>Download Here!</a>
                 <div>
                     <br></br>
                     <h4>Experienced In:</h4>

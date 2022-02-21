@@ -1,24 +1,20 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-function Navigation() {
+function Navigation(props) {
+    const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
     return (
-        <nav>
-            <ul className='flex-row'>
-                <li className='mx-2'>
-                    <Link to='/about'>About</Link>
-                </li>
-                <li className='mx-2'>
-                    <Link to='/portfolio'>Portfolio</Link>
-                </li>
-                <li className='mx-2'>
-                    <Link to='/contact'>Contact</Link>
-                </li>
-                <li className='mx-2'>
-                    <Link to='/resume'>Resume</Link>
-                </li>
+        <div className="tabs header" >
+            <ul className="nav-tabs nav">
+                {tabs.map((tab) => (
+                <li className={props.currrentPage === tab ? "nav-item is-active" : "nav-item"} key={tab} >
+                    <a href={"#" + tab.toLocaleLowerCase()} 
+                    onClick={() => props.handlePageChange(tab)}
+                    className={ props.currentPage === tab ? "nav-link active" : "nav-link"} >
+                    {tab}
+                    </a>
+                </li> ))}
             </ul>
-        </nav>
-    )
+        </div>
+    );
 }
 
 export default Navigation;

@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    box-sizing: border-box;
+    background-color: rgb(198, 163, 238);
+    color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
+.head-shot {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    
+}
+
+.icon {
+    width: 20px;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.tabs {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.name {
+    justify-content: center;
+    font-size: 30px;
+}
+
+.content {
+text-align: center;
+}
+
+
+.work-card-image {
+    width: 500px;
+}
+
+.stuff {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
