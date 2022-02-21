@@ -41,12 +41,11 @@ a:link {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .name {
     justify-content: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .content {
@@ -58,8 +57,30 @@ text-align: center;
     width: 500px;
 }
 
+.work-card {
+    margin-bottom: 100px;
+}
 .stuff {
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.my-info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    margin: 6px;
+}
+
+ul {
+    padding: 0%;
+}
+
+.contact-me {
     text-align: center;
 }

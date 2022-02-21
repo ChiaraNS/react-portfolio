@@ -2,7 +2,7 @@ import React from 'react';
 import profilePic from './profilePic.png';
 function About() {
   return (
-    <div>
+    <div className="my-info">
       <p className="content">Info On Me!</p>
       <hr />
       <img className="head-shot" src={process.env.PUBLIC_URL + profilePic} alt="Chiara Schafer" />
